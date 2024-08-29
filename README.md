@@ -1,5 +1,6 @@
 # Nillion-Verifier
 
+## Set up for Linux
 
 
 You should now be able to run the following in a command line to get the version number of your Docker installation:
