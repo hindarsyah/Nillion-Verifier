@@ -18,6 +18,28 @@ Docker version 27.1.1, build 63125853e3
 
 
 
+#### 2. Initialising the accuser
+ 
+#### Create a local directory to store state.
+
+```sh
+mkdir -p nillion/accuser
+```
+
+#### Then initialise the accuser in the mounted directory.
+```sh
+docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 initialise
+```
+This will output the details needed to register the accuser on the website, register them below:
+
+#### accound_id: Nillion address of the accuser
+#### public_key: Public Key of the accuser
+
+
+
+
+
+
 
 
 
