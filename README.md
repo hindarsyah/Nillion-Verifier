@@ -3,6 +3,21 @@
 ## Set up for Linux
 
 
+
+auto install : 
+```sh
+docker --version
+```
+
+
+
+
+
+
+
+
+
+
 You should now be able to run the following in a command line to get the version number of your Docker installation:
 
 Getting the Docker version
@@ -31,18 +46,6 @@ This will output the details needed to register the accuser on the website, regi
 accound_id: Nillion address of the accuser
 public_key: Public Key of the accuser
 Note The accuser will store the credentials in a file called credentials.json in the folder that was created. If you lose this file, you will lose access to the keys/address of the accuser.
-
-
-
-
-
-auto install : 
-```sh
-cd dillinger
-docker build -t <youruser>/dillinger:${package.json.version} .
-```
-
-
 
 
 
