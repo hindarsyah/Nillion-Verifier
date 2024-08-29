@@ -4,7 +4,9 @@
 
 
 
-auto install : 
+### auto install : 
+
+#### 1. Verifying Docker install
 ```sh
 docker --version
 ```
