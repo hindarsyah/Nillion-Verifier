@@ -2,7 +2,7 @@
 
 ## Intro CAK
 
-Dillinger is currently extended with the following plugins.
+
 Instructions on how to use them in your own application are linked below.
 
 | Site | Wakwaw |
@@ -49,16 +49,10 @@ This will output the details needed to register the accuser on the website, regi
 #### public_key: Public Key of the accuser
 
 
-
-
-
-
-
-
 #### 3. Running the accuser
 
 
-**YOU MUST WAIT 30-60 MINUTES TO CONTINUE WITH THE STEPS BELOW. The secret verification is designed wait for a period of time before fully registering the accuser.
+// YOU MUST WAIT 30-60 MINUTES TO CONTINUE WITH THE STEPS BELOW. The secret verification is designed wait for a period of time before fully registering the accuser.
 
 Once you have the details required to register the accuser, you can run the accuser in the same directory. Ensure that your accusor has some funds, by going to the Nillion faucet.
    ```sh
