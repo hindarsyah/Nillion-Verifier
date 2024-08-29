@@ -12,13 +12,13 @@ Instructions on how to use them in your own application are linked below.
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
-| Faucet | [plugins/googleanalytics/README.md][PlGa] |
+| Faucet | [ https://faucet.testnet.nillion.com ][PlGa] |
 
 
 
 
 
- : ```sh https://faucet.testnet.nillion.com/ ```
+ 
 
 
 
