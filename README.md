@@ -6,11 +6,11 @@ Getting the Docker version
 docker --version
 Which should return a version number like the following:
 
-Docker version 27.1.1, build 63125853e3
+```sh  Docker version 27.1.1, build 63125853e3 ```
 
 
 
-faucet : ```sh https://faucet.testnet.nillion.com/ .```
+faucet : ```sh https://faucet.testnet.nillion.com/ ```
 
 
 
@@ -19,7 +19,7 @@ Initialising the accuser
 
 Create a local directory to store state.
 
-```sh mkdir -p nillion/accuser .```
+```sh mkdir -p nillion/accuser ```
 Then initialise the accuser in the mounted directory.
 
 ```sh docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 initialise .```
