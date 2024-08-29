@@ -9,7 +9,9 @@ auto install :
 docker --version
 ```
 
-
+```sh
+Docker version 27.1.1, build 63125853e3
+```
 
 
 
