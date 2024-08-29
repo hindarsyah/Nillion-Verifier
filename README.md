@@ -7,3 +7,8 @@ docker --version
 Which should return a version number like the following:
 
 Docker version 27.1.1, build 63125853e3
+
+
+
+faucet : https://faucet.testnet.nillion.com/
+auto install : 
