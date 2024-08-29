@@ -13,12 +13,6 @@ Instructions on how to use them in your own application are linked below.
 
 
 
-
- 
-
-
-
-
 ## Set up for Linux
 
 
@@ -108,32 +102,7 @@ NODE_ENV=production node app
 
 
 
-## Development
 
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
 
 #### Building for source
 
