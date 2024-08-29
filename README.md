@@ -55,7 +55,17 @@ This will output the details needed to register the accuser on the website, regi
 
 
 
+#### 3. Running the accuser
 
+
+**YOU MUST WAIT 30-60 MINUTES TO CONTINUE WITH THE STEPS BELOW. The secret verification is designed wait for a period of time before fully registering the accuser.
+
+Once you have the details required to register the accuser, you can run the accuser in the same directory. Ensure that your accusor has some funds, by going to the Nillion faucet.
+   ```sh
+docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5129969
+   ```
+
+Once running, the accuser will listen to events from the Nilchain and start automatically accusing once the registration event has been posted to the chain from the website. The accuser will listen to events from the Nilchain and start automatically accusing once the registration event has been posted to the chain from the website.
 
 
 
