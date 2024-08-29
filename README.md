@@ -35,9 +35,9 @@ Docker version 27.1.1, build 63125853e3
  
 #### Create a local directory to store state.
 
-```sh
-mkdir -p nillion/accuser
-```
+   ```sh
+   mkdir -p nillion/accuser
+   ```
 
 #### Then initialise the accuser in the mounted directory.
 ```sh
